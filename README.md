@@ -1,7 +1,7 @@
-TypeScript ExtJS Button Click Demo
+TypeScript ExtJS Change Button Demo
 ===================================
 
-Extjs中可以通过listeners来监听一些事件，某些事件与标准事件同名，比如`click`
+需要使用setter如`setText`才能让修改起作用，直接`.text=???`没有效果
 
 ```
 npm install
